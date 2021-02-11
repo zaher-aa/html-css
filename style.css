@@ -1,0 +1,31 @@
+
+
+body {
+  font-family: "Hammersmith One", sans-serif;
+}
+
+.header {
+  background-color: #eee;
+  padding: 5px;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  margin-top: 18px;
+}
+
+.header h1 {
+  opacity: 0.8;
+}
+
+.header p {
+  opacity: 0.6;
+  margin-top: -7px;
+}
+
+.img-wrapper {
+  width: 75%;
+  height: 500px;
+  margin: auto;
+  background-image: url("../imgs/image-asset.jpeg");
+  background-size: cover;
+}
