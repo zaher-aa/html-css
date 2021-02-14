@@ -1,31 +1,97 @@
-
-
 body {
-  font-family: "Hammersmith One", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(116, 218, 218);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-.header {
-  background-color: #eee;
-  padding: 5px;
+h1 {
   text-align: center;
-  width: 75%;
+}
+
+div.our-form {
+  width: 95%;
+  height: fit-content;
   margin: auto;
-  margin-top: 18px;
+  background-color: white;
+  border-radius: 10px;
 }
 
-.header h1 {
-  opacity: 0.8;
+.our-form .let-us {
+  text-align: center;
+  padding: 30px 0px 10px;
 }
 
-.header p {
-  opacity: 0.6;
-  margin-top: -7px;
+.label-input {
+  display: inline-block;
+  width: 60px;
 }
 
-.img-wrapper {
-  width: 75%;
-  height: 500px;
-  margin: auto;
-  background-image: url("../imgs/image-asset.jpeg");
-  background-size: cover;
+.input-field {
+  width: 250px;
+  height: 1.5em;
+}
+
+.input-container {
+  position: relative;
+  left: 500px;
+  margin: 15px;
+}
+
+.major {
+  position: relative;
+  left: 208px;
+  margin-top: 27px;
+}
+
+#major {
+  margin-left: 18px;
+  width: 100px;
+  height: 1.5rem;
+  background: #eee;
+}
+
+.recommend p {
+  display: inline-block;
+  position: relative;
+  left: 256px;
+  top: -22px;
+}
+
+.select-one {
+  display: inline-block;
+  position: relative;
+  left: 275px;
+  margin-top: 15px;
+}
+
+.recommend {
+  margin-top: 10px;
+}
+
+.most-liked {
+  margin-left: 340px;
+  margin-top: 29px;
+}
+
+.most-liked #liked {
+  margin-left: 20px;
+  height: 1.5rem;
+  background: #eee;
+}
+
+.improved {
+  margin-top: 38px;
+}
+
+.improved p {
+  margin-left: 248px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.improved .qa {
+  display: inline-block;
+  margin-left: 10px;
 }

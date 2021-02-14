@@ -2,25 +2,122 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="CSS/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Jomhuria&family=Open+Sans:ital,wght@1,300&display=swap"
-      rel="stylesheet"
-    />
-    <title>Work Out</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Survey Form</title>
   </head>
   <body>
-    <div class="header">
-      <h1>Dr. Norman Borlaug</h1>
-      <p>The man who saved a billion lives</p>
+    <h1>Survey Form</h1>
+    <div class="our-form">
+      <p class="let-us">Let us know how we can improve free code camp</p>
+      <form action="" method="POST">
+        <div class="input-container">
+          <label class="label-input" for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            class="input-field"
+            name="name"
+            placeholder="Enter Your Name"
+            required
+            autofocus
+          />
+        </div>
+        <div class="input-container">
+          <label class="label-input" for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            class="input-field"
+            name="email"
+            placeholder="zaher@zaa.org"
+            required
+          />
+        </div>
+        <div class="input-container">
+          <label class="label-input" for="age">Age:</label>
+          <input
+            type="number"
+            class="input-field"
+            id="age"
+            name="age"
+            placeholder="Age"
+            required
+          />
+        </div>
+        <div class="major">
+          <label for="major"
+            >Which Option Best Describes Your Current Role?</label
+          >
+          <select name="major" id="major">
+            <option value="std">Student</option>
+            <option value="emp">Employee</option>
+            <option value="teach">Teacher</option>
+          </select>
+        </div>
+        <div class="recommend">
+          <p>
+            How Likely Is That you would recommend <br />
+            freecodecamp to a friend?
+          </p>
+          <div class="select-one">
+            <input id="def" type="radio" name="recommend" value="Defenitly" />
+            <label for="def">Defenitly</label>
+            <br />
+            <input id="may" type="radio" name="recommend" value="Maybe" />
+            <label for="may">Maybe</label>
+            <br />
+            <input
+              id="notsure"
+              type="radio"
+              name="recommend"
+              value="Not Sure"
+            />
+            <label for="notsure">Not Sure</label>
+          </div>
+        </div>
+        <div class="most-liked">
+          <label for="liked">What do you like most in FCC:</label>
+          <select name="liked" id="liked">
+            <option value="select-one">Select One</option>
+            <option value="select-two">Select Two</option>
+            <option value="select-three">Select Three</option>
+          </select>
+        </div>
+        <div class="improved">
+          <p>
+            Things that should be improved in the future
+            <br />(Chack all that apply)
+          </p>
+          <div class="qa">
+            <input
+              id="front-end"
+              type="checkbox"
+              name="front-end"
+              value="Front-end Projects"
+            />
+            <label for="front-end">Front-end Projects</label>
+            <br />
+            <input
+              id="back-end"
+              type="checkbox"
+              name="back-end"
+              value="Back-end Projects"
+            />
+            <label for="back-end">Back-end Projects</label>
+            <br />
+            <input
+              id="dt-visiual"
+              type="checkbox"
+              name="data-visiualizing"
+              value="Data Visiualizing"
+            />
+            <label for="dt-visiual">Data Visiualizing</label>
+          </div>
+        </div>
+      </form>
     </div>
-    <div class="img-wrapper"></div>
+    
   </body>
 </html>
